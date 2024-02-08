@@ -1,0 +1,3 @@
+2024-02-08 18:42:39 [main] INFO  net.exyon.ImageConverter - Image read successfully from test.jpg
+2024-02-08 18:42:40 [main] INFO  net.exyon.ImageConverter - Image resized to 100x200 pixels
+2024-02-08 18:42:41 [main] INFO  net.exyon.ImageConverter - Image conversion, resizing, and watermarking completed successfully. Output file: output.tif
