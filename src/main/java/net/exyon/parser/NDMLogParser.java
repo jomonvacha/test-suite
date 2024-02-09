@@ -14,9 +14,11 @@ public class NDMLogParser {
 //        }
         File[] logFiles = logDirectory.listFiles((dir, name) -> name.matches(".*\\.\\d+"));
 //        Arrays.sort(logFiles, Comparator.comparingInt(f -> Integer.parseInt(f.getName().replaceAll(".*\\.", ""))));
-        for (File logFile : logFiles) {
-            if (logFile.isFile()) {
-                processLogFile(logFile);
+        if (logFiles != null) {
+            for (File logFile : logFiles) {
+                if (logFile.isFile()) {
+                    processLogFile(logFile);
+                }
             }
         }
     }
